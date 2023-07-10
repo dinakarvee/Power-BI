@@ -20,9 +20,9 @@ Additional manipulation of data included converting the sales and profit columns
 
 ## Visualization
 
-After the data quality check, the clean data was imported into Microsoft Power BI  to build visualization and help to better understand the business problem [super store data.xlsx] (https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/SuperStore_Sales_Dataset.csv)
+After the data quality check, the clean data was imported into Microsoft Power BI  to build visualization and help to better understand the business problem [super store data.xlsx](https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/SuperStore_Sales_Dataset.csv)
 
-![superstore dashboard pictire] (https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/Dashboard%20Pic.png)
+![superstore dashboard pictire](https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/Dashboard%20Pic.png)
 
 
 ## RESULTS
