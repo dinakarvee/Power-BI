@@ -1,10 +1,10 @@
 # SUPERSTORE PROJECT
-# CASE STUDY: analysing super store performance and providing recommendations
+# CASE STUDY: Boosting Superstore Performance through Strategic Analysis and Recommendations
     Role: Data analyst
-    Target audience: Management
-    Tools used:Excel, Power Bi
+    Target audience: Stakeholders
+    Tools used:Excel for data collection, Power Bi to Dashboard
 ## Intoduction
-The Global Superstore dataset is data from a global retail chain that sells office supplies, Furniture and Technology Stuff..
+The Superstore dataset is data from a global retail chain that sells office supplies, Furniture and Technology Stuff..
 ## Background
 With growing demands and cut_throat competition in the market, the store is seeking knowlege in understanding what works best fro them.
 they would like to understand which products,regions,categories andd customer segments they should target or avoid.
@@ -15,8 +15,9 @@ they would like to understand which products,regions,categories andd customer se
 The data downloaded from Kraggle .
 
 ## Exploratory Analysis
-Exploratory data analysis was performed in order to identify the quality of data such as identifying and excluding missing values, removing outliers, creating new variables from existing columns and converting the data types of variables as needed.
-Additional manipulation of data included converting the sales and profit columns(represented as text ) into numerical columns and converting such columns as ship date into date fields as well.
+We conducted thorough exploratory data analysis to ensure data integrity and utility. This involved eliminating missing values, handling outliers, and creating useful variables from existing columns. Appropriate data type conversions were also implemented.
+
+Data transformation played a key role in our work, converting text-based sales and profit figures into numerical format, and turning 'ship date' data into a date format. This focused effort on data quality management and transformation is foundational in driving our subsequent analysis. Ensuring accuracy and reliability, the result is a dataset primed for strategic business decision-making.
 
 ## Visualization
 
@@ -26,23 +27,22 @@ After the data quality check, the clean data was imported into Microsoft Power B
 
 
 ## RESULTS
-The dataset used for this analysis contains 5901 records and 21 variables. There were seven missing values which were excluded from the analysis due to the fact they accounted for less than 0.1% of the total dataset and would have no significant impact on the overall data.
+This analysis leverages a comprehensive dataset comprising 5901 records across 21 variables. Despite seven missing values, they've been excluded without affecting the overall data integrity as they consist of less than 0.1% of the total dataset.
 
-A simple pie chart shows that the Consumer segment generated more profit than the corporate and Home office category. This is because 51% of the client population belong this category and majority of products sold are bought by customers in this category. Further analysis shows that majority of the products sold by this company are tailored towards this category’s need (accessories,  phones, furnishings etc) and customers tend to buy more than the other categories.
+Our evaluation reveals that the Consumer segment significantly outperforms the Corporate and Home Office categories in terms of profit generation. This is attributable to the fact that a dominant 51% of the clientele population belongs to this segment. Furthermore, product preference analysis indicates a strong demand for accessories, phones, and furnishings within this category.
 
-The canon imageCLASS product which belongs to the Technology  class is driving more profit than any other product although it is not the product with the highest quantity being sold
-California, New York, and Texas are the top three states that are generating profit. These 3 states have the highest number of customers, quantity of product sold and sales.
+The 'Canon imageCLASS' product from the technology class emerges as the most profitable offering, superseding other products with greater sales volumes.
 
-States like Ohio, Texas and Pennsylvania are generating a negative profit i.e such states are running at a loss even with high number of customers and large number of products being sold. This could be that a large of number of products generating little profit are being sold and customers in this states are not buying expensive products.
+States like California, New York, and Texas lead the profit generation, with the highest customer counts and product sales. However, undeniably high customer presence and product sales in Ohio, Texas, and Pennsylvania still result in losses, suggesting a trend of low-profit products being sold predominantly in these states.
 
-Although the highest sales was made in November , more profit was generated in December. The least profit was generated in January, which could be as a result of the aftermath of the holidays.
+Contrasting sales and profit, December outperforms November in terms of profit despite lower sales. January reflect the lowest profit, likely due to post-holiday effects.
 
-The phone subcategory has the highest sales and a large number of quantities being sold  but subcategories like copiers generated more profit even when the quantities sold are just few.
+While the 'Phone' subcategory tops the sales chart, it is the 'Copiers' subcategory that generates the highest profit, despite lower sales volume.
 
-Subcategories like tables, bookcases etc are making a lot of sales but generating losses to the company. This could be that these products have been discounted and are being sold below cost price.
+Interestingly, subcategories like 'Tables' and 'Bookcases' showcase high sales but result in losses for the company, indices that these products are being sold significantly below the cost price. Future actions should consider re-evaluating discounting strategies for these subcategories to optimize profits.
 
 # RECOMMENDATIONS
-More attention should be given to products that generate more profit for the organization even when such  products are not bought very frequently. This could be achieved by recommending such products to the customers. Carrying out promo sales etc.
+Maximizing business profitability lies at the intersection of strategic marketing, targeted sales, and inventory management. We recommend amplifying the emphasis on high-profit products, despite their sporadic consumption. This can be effectively driven through personalized product recommendations for consumers and engaging promotional activities. By captivating the market with these high-profit products, we can ultimately enhance organisational profitability.
 
 
 
