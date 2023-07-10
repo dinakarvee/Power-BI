@@ -1,11 +1,10 @@
-# OCTAVE PROJECTS SUPERSTORE PROJECT
+# SUPERSTORE PROJECT
 # CASE STUDY: analysing super store performance and providing recommendations
     Role: Data analyst
     Target audience: Management
     Tools used:Excel, Power Bi
 ## Intoduction
-Superstore was established in Kwara in october 2010 and over the years has launched additional 9 stores across four states in the federation including the federal capital territory(FCT), Abuja.
-The store is a proud supporter of Nigerian business and is committed to helping local enterprises, building relationships with leading Nigerian supplies, small businesses and farmers and securing a wide assortment of brands.
+The Global Superstore dataset is data from a global retail chain that sells office supplies, Furniture and Technology Stuff..
 ## Background
 With growing demands and cut_throat competition in the market, the store is seeking knowlege in understanding what works best fro them.
 they would like to understand which products,regions,categories andd customer segments they should target or avoid.
@@ -13,7 +12,7 @@ they would like to understand which products,regions,categories andd customer se
 # THE BUSINESS SOLUTION
 ## METHODOLOGY
 ## Data collection
-The data used for this analysis was provided by Octave data team on 9th May 2022 .
+The data downloaded from Kraggle .
 
 ## Exploratory Analysis
 Exploratory data analysis was performed in order to identify the quality of data such as identifying and excluding missing values, removing outliers, creating new variables from existing columns and converting the data types of variables as needed.
@@ -21,17 +20,18 @@ Additional manipulation of data included converting the sales and profit columns
 
 ## Visualization
 
-After the data quality check, the clean data was imported into Microsoft Power BI  to build visualization and help to better understand the business problem[super store data.xlsx](https://github.com/gracehally7/superstore-analysis/files/8790498/super.store.data.xlsx)
+After the data quality check, the clean data was imported into Microsoft Power BI  to build visualization and help to better understand the business problem [super store data.xlsx] (https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/SuperStore_Sales_Dataset.csv)
 
-![superstore dashboard pictire](https://user-images.githubusercontent.com/99291785/170810189-6d9418d6-1aff-4526-9962-aa7f3709f385.jpeg)
+![superstore dashboard pictire] (https://github.com/dinakarvee/Power-BI/blob/main/Superstore_Dashboard/Dashboard%20Pic.png)
 
 
 ## RESULTS
-The dataset used for this analysis contains 9,995 records and 21 variables. There were seven missing values which were excluded from the analysis due to the fact they accounted for less than 0.1% of the total dataset and would have no significant impact on the overall data.
-A simple pie chart shows that the Consumer segment generated more profit than the corporate and Home office category. This is because 52% of the client population belong this category and majority of products sold are bought by customers in this category. Further analysis shows that majority of the products sold by this company are tailored towards this category’s need (accessories,  phones, furnishings etc) and customers tend to buy more than the other categories.
+The dataset used for this analysis contains 5901 records and 21 variables. There were seven missing values which were excluded from the analysis due to the fact they accounted for less than 0.1% of the total dataset and would have no significant impact on the overall data.
+
+A simple pie chart shows that the Consumer segment generated more profit than the corporate and Home office category. This is because 51% of the client population belong this category and majority of products sold are bought by customers in this category. Further analysis shows that majority of the products sold by this company are tailored towards this category’s need (accessories,  phones, furnishings etc) and customers tend to buy more than the other categories.
 
 The canon imageCLASS product which belongs to the Technology  class is driving more profit than any other product although it is not the product with the highest quantity being sold
-California, New York, and Washington are the top three states that are generating profit. These 3 states have the highest number of customers, quantity of product sold and sales.
+California, New York, and Texas are the top three states that are generating profit. These 3 states have the highest number of customers, quantity of product sold and sales.
 
 States like Ohio, Texas and Pennsylvania are generating a negative profit i.e such states are running at a loss even with high number of customers and large number of products being sold. This could be that a large of number of products generating little profit are being sold and customers in this states are not buying expensive products.
 
